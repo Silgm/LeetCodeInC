@@ -2,7 +2,10 @@
 /*Some Macro tool and basic head file like stdio.h stdlib.h etc. in toolbox.h*/
 #include "toolbox.h"
 
-#define Q1_TWOSUM
+/*question_test_choose*/
+#include "question_choose.h"
+
+
 #ifdef Q1_TWOSUM
 
 int* twoSum(int* nums, int numsSize, int target);

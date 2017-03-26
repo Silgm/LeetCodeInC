@@ -26,5 +26,8 @@
     <ClInclude Include="toolbox.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="question_choose.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

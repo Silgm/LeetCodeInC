@@ -149,6 +149,7 @@
     <ClCompile Include="q1_TwoSum.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="question_choose.h" />
     <ClInclude Include="toolbox.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
