@@ -24,6 +24,9 @@
     <ClCompile Include="q2_AddTwoNumbers.c">
       <Filter>源文件\src</Filter>
     </ClCompile>
+    <ClCompile Include="q3_LongestSubstringWithoutRepeatingCharacters.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="toolbox.h">
