@@ -1,4 +1,4 @@
-#/*Some Macro tool and basic head file like stdio.h stdlib.h etc. in toolbox.h*/
+/*Some Macro tool and basic head file like stdio.h stdlib.h etc. in toolbox.h*/
 #include "toolbox.h"
 
 /*question_test_choose*/
