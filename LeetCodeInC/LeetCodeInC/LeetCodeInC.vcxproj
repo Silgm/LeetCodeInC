@@ -146,6 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="q10_RegularExpressionMatching.c" />
     <ClCompile Include="q2_AddTwoNumbers.c" />
     <ClCompile Include="q1_TwoSum.c" />
     <ClCompile Include="q3_LongestSubstringWithoutRepeatingCharacters.c" />
@@ -154,6 +155,7 @@
     <ClCompile Include="q6_ZigZagConversion.c" />
     <ClCompile Include="q7_ReverseInteger.c" />
     <ClCompile Include="q8_StringToInteger.c" />
+    <ClCompile Include="q9_PalindromeNumber.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="question_choose.h" />
