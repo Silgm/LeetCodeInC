@@ -33,6 +33,15 @@
     <ClCompile Include="q5_LongestPalindromicSubstring.c">
       <Filter>源文件\src</Filter>
     </ClCompile>
+    <ClCompile Include="q6_ZigZagConversion.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="q8_StringToInteger.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="q7_ReverseInteger.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="toolbox.h">

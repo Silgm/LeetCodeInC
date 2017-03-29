@@ -151,6 +151,9 @@
     <ClCompile Include="q3_LongestSubstringWithoutRepeatingCharacters.c" />
     <ClCompile Include="q4_MedianofTwoSortedArrays.c" />
     <ClCompile Include="q5_LongestPalindromicSubstring.c" />
+    <ClCompile Include="q6_ZigZagConversion.c" />
+    <ClCompile Include="q7_ReverseInteger.c" />
+    <ClCompile Include="q8_StringToInteger.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="question_choose.h" />
