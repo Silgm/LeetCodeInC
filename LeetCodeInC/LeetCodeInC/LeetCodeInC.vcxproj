@@ -150,7 +150,7 @@
     <ClCompile Include="q1_TwoSum.c" />
     <ClCompile Include="q3_LongestSubstringWithoutRepeatingCharacters.c" />
     <ClCompile Include="q4_MedianofTwoSortedArrays.c" />
-    <ClCompile Include="q5_LongestPalindromicSubstring.cpp" />
+    <ClCompile Include="q5_LongestPalindromicSubstring.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="question_choose.h" />
