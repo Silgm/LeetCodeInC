@@ -5,7 +5,7 @@
 #include "question_choose.h"
 
 
-#ifdef Q3_LONGEST_SUBSTRING_WITHOUT_REPEATING_CHARACTERS
+#ifndef Q3_LONGEST_SUBSTRING_WITHOUT_REPEATING_CHARACTERS
 
 /************************************************************************/
 /* 

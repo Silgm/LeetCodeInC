@@ -4,7 +4,7 @@
 /*question_test_choose*/
 #include "question_choose.h"
 
-#ifdef Q4_MEDIAN_OF_TWO_SORTED_ARRAYS
+#ifndef Q4_MEDIAN_OF_TWO_SORTED_ARRAYS
 /************************************************************************/
 /* 
 There are two sorted arrays nums1 and nums2 of size m and n respectively.

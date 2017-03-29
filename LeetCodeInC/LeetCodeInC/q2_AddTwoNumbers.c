@@ -4,7 +4,7 @@
 /*question_test_choose*/
 #include "question_choose.h"
 
-#ifdef Q2_ADDTWONUMBERS
+#ifndef Q2_ADDTWONUMBERS
 
 /************************************************************************/
 /* 

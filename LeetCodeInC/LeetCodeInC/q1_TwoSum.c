@@ -6,7 +6,7 @@
 #include "question_choose.h"
 
 
-#ifdef Q1_TWOSUM
+#ifndef Q1_TWOSUM
 
 int* twoSum(int* nums, int numsSize, int target);
 

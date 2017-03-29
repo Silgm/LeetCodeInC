@@ -7,11 +7,11 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <stddef.h>
-
 #include <assert.h>
 #include <time.h>
 
 #define MF_LENOF_ARR( _arr )	(sizeof(_arr)/sizeof(_arr[0]))
+#pragma warning(disable:4996)
 
 
 #endif
