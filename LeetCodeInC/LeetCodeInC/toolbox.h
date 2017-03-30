@@ -7,6 +7,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <stddef.h>
+#include <ctype.h>
 #include <assert.h>
 #include <time.h>
 

@@ -154,6 +154,7 @@
     <ClCompile Include="q461_HammingDistance.c" />
     <ClCompile Include="q467_NumberComplement.c" />
     <ClCompile Include="q4_MedianofTwoSortedArrays.c" />
+    <ClCompile Include="q500_KeyboardRow.c" />
     <ClCompile Include="q5_LongestPalindromicSubstring.c" />
     <ClCompile Include="q6_ZigZagConversion.c" />
     <ClCompile Include="q7_ReverseInteger.c" />

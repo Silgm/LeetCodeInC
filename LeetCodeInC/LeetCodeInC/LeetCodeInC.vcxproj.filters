@@ -57,6 +57,9 @@
     <ClCompile Include="q467_NumberComplement.c">
       <Filter>源文件\src</Filter>
     </ClCompile>
+    <ClCompile Include="q500_KeyboardRow.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="toolbox.h">
