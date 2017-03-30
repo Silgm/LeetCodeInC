@@ -48,6 +48,15 @@
     <ClCompile Include="q10_RegularExpressionMatching.c">
       <Filter>源文件\src</Filter>
     </ClCompile>
+    <ClCompile Include="q11_ ContainerWithMostWater.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="q461_HammingDistance.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="q467_NumberComplement.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="toolbox.h">
