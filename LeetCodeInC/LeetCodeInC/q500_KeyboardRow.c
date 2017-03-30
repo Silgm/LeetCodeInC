@@ -25,6 +25,8 @@ Output: ["Alaska", "Dad"]
 * Return an array of size *returnSize.
 * Note: The returned array must be malloced, assume caller calls free().
 */
+#ifndef Q500_KEYBOARD_ROW
+
 char** findWords(char** words, int wordsSize, int* returnSize) {
 	/*qwertyuiop asdfghjkl zxcvbnm*/
 	//char keyboard[] = {};
@@ -56,7 +58,6 @@ char** findWords(char** words, int wordsSize, int* returnSize) {
 	return resultWords;
 }
 
-#ifndef Q500_KEYBOARD_ROW
 
 int main()
 {
@@ -78,11 +79,6 @@ int main()
 
 	return EXIT_SUCCESS;
 }
-
-
-
-
-
 
 #endif // !Q500_KEYBOARD_ROW
 
