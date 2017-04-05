@@ -150,10 +150,12 @@
     <ClCompile Include="q11_ ContainerWithMostWater.c" />
     <ClCompile Include="q2_AddTwoNumbers.c" />
     <ClCompile Include="q1_TwoSum.c" />
+    <ClCompile Include="q344_ReverseString.c" />
     <ClCompile Include="q3_LongestSubstringWithoutRepeatingCharacters.c" />
     <ClCompile Include="q412_FizzBuzz.c" />
     <ClCompile Include="q461_HammingDistance.c" />
     <ClCompile Include="q467_NumberComplement.c" />
+    <ClCompile Include="q496_NextGreaterElementI.c" />
     <ClCompile Include="q4_MedianofTwoSortedArrays.c" />
     <ClCompile Include="q500_KeyboardRow.c" />
     <ClCompile Include="q5_LongestPalindromicSubstring.c" />
