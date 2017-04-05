@@ -37,14 +37,38 @@ The length of both nums1 and nums2 would not exceed 1000.
 
 
 #ifndef Q496_NEXT_GREATER_ELEMENT_I
-
+#define MAX_LEN	10240
 int* nextGreaterElement(int* findNums, int findNumsSize, int* nums, int numsSize, int* returnSize) {
-	int resultSize = 0;
-
+	int answer_sheet[MAX_LEN];
+	int *pResult = (int *)malloc(findNumsSize * sizeof(int));
+	int index = 0, indexNums = 0, indexfindNums = 0;
+	memset(answer_sheet, -1, sizeof(answer_sheet));
+	for (; index < numsSize; index++) {
+		for (indexNums = index + 1; indexNums < numsSize && nums[indexNums] < nums[index]; indexNums++);
+		if (indexNums != numsSize) {
+			answer_sheet[nums[index]] = nums[indexNums];
+		}
+	}
+	for (; indexfindNums < findNumsSize; indexfindNums++) {
+		pResult[indexfindNums] = answer_sheet[findNums[indexfindNums]];
+	}
+	*returnSize = findNumsSize;
+	return pResult;
 }
 
 int main()
 {
+	int num1[] = { 2,4 };
+	int num2[] = { 1,2,3,4 };
+	int returnSize = 0;
+	int *numResult = nextGreaterElement(num1, MF_LENOF_ARR(num1), num2, MF_LENOF_ARR(num2), &returnSize);
+
+	for (int index = 0; index < returnSize; index++) {
+		printf("%d,", numResult[index]);
+	}
+
+	free(numResult);
+	
 	return EXIT_SUCCESS;
 }
 
