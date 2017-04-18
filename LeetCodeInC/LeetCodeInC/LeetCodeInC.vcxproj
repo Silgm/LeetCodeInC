@@ -153,6 +153,7 @@
     <ClCompile Include="q344_ReverseString.c" />
     <ClCompile Include="q3_LongestSubstringWithoutRepeatingCharacters.c" />
     <ClCompile Include="q412_FizzBuzz.c" />
+    <ClCompile Include="q45_JumpGameII.c" />
     <ClCompile Include="q461_HammingDistance.c" />
     <ClCompile Include="q463_IslandPerimeter.c" />
     <ClCompile Include="q467_NumberComplement.c" />
